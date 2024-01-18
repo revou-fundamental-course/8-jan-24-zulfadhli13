@@ -4,24 +4,32 @@ body {
 }
 
 .judul-header {
-  background-color: #3498db;
+  background-color: #336b87;
   color: #fff;
   text-align: center;
   padding: 5px;
   font-family: Arial, sans-serif;
 }
 
-.container {
+#container1 {
   text-align: center;
+}
+
+#container2 {
+  text-align: center;
+  border: 2px solid black;
+  width: 50%;
+  margin-left: 50vh;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 img {
   width: 40%;
 }
 
-.container .luas-persegi {
-  background-color: #3498db;
-  color: #fff;
+#container1 .luas-persegi {
   padding: 10px;
 }
 
@@ -36,7 +44,7 @@ label {
 
 input {
   padding: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: 50%;
 }
 
@@ -50,12 +58,16 @@ input {
   cursor: pointer;
 }
 
-button:active {
-  background-color: grey;
+#hitung:active {
+  background-color: black;
+}
+
+#reset:active {
+  background-color: black;
 }
 
 #hasil {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 /* button reset */
@@ -74,7 +86,7 @@ button:active {
 }
 
 footer {
-  background-color: sienna;
+  background-color: #763626;
   padding: 10px;
   margin-top: 50px;
   color: goldenrod;
@@ -86,10 +98,10 @@ footer {
   color: silver;
 }
 
-span {
+.created-by {
   display: flex;
   justify-content: center;
-  color: lavender;
+  color: #90afc5;
   font-size: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
