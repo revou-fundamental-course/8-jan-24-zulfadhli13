@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.judul-header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+  width: 40%;
+}
+
+.container .luas-persegi {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+}
+
+.keterangan {
+  text-align: left;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  padding: 1px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+#hitung {
+  padding: 8px 10px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: grey;
+}
+
+#hasil {
+  margin-top: 20px;
+}
+
+/* button reset */
+#reset {
+  padding: 8px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:active {
+  background-color: grey;
+}
+
+footer {
+  background-color: sienna;
+  padding: 10px;
+  margin-top: 50px;
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.saran {
+  font-size: 11px;
+  color: silver;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  color: lavender;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
