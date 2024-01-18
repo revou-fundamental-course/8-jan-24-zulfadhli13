@@ -17,12 +17,13 @@ body {
 
 #container2 {
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid none;
   width: 50%;
   margin-left: 50vh;
   padding-bottom: 30px;
+  padding-top: 3px;
   border-radius: 10px;
-  background-color: white;
+  background-color: #eae2d6;
 }
 
 img {
